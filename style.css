@@ -614,6 +614,33 @@ audio {
     }
 }
 
+@media (max-width: 600px){
+    .my__music {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 436px){
+    .my__music {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 416px){
+    .projects__info p {
+        margin-top: 2rem;
+        font-size: 12px;
+        font-weight: 400;
+        margin: auto;
+    }
+}
+
 @media (max-width: 426px) {
     .home__img img {
         margin-top: 0rem;
@@ -650,6 +677,21 @@ audio {
     }
     .skills__box {
         height: 125px;
+    }
+    .projects__info p {
+        margin-top: 2rem;
+        font-size: 10px;
+        font-weight: 400;
+        margin: auto;
+    }
+}
+
+@media(max-width:330px){
+    .projects__info p {
+        margin-top: 2rem;
+        font-size: 10px;
+        font-weight: 400;
+        margin: auto;
     }
 }
 
