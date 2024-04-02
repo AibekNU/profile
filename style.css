@@ -632,6 +632,20 @@ audio {
     }
 }
 
+@media (max-width: 386px){
+    .projects__info h4 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 335px){
+    .projects__info h4 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
 @media (max-width: 416px){
     .projects__info p {
         margin-top: 2rem;
@@ -659,15 +673,22 @@ audio {
     }
 }
 
+@media (max-width: 400px){
+    .projects__info h4 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+}
+
 @media (max-width: 376px) {
     .heading {
         font-size: 4rem;
     }
     .projects__info h4 {
-        font-size: 26px;
+        font-size: 30px;
     }
     .projects__info p {
-        font-size: 14px;
+        font-size: 18px;
     }
     .projects__box .projects__info {
         padding: 2.2rem;
